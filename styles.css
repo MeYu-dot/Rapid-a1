@@ -1,0 +1,95 @@
+#main-header {
+    /* font-family:"Lato Extended","Lato","Helvetica Neue",Helvetica,Arial,sans-serif; */
+    margin: auto;
+    font-size: 28.8px;
+    font-weight: bold;
+    color: rgb(45, 59, 69);
+    line-height: 2.5em;
+}
+#main-text {
+    /* font-family:"Lato Extended","Lato","Helvetica Neue",Helvetica,Arial,sans-serif; */
+    margin: auto;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(45, 59, 69) ;
+    line-height: 2em;
+}
+#email-input {
+    transition: all 0.30s ease-in-out;
+    width: 560px;
+    margin: auto;
+    border-radius: 5px;
+    /* font-family:"Lato Extended","Lato","Helvetica Neue",Helvetica,Arial,sans-serif; */
+    /* border-color:  ; */
+    vertical-align: middle;
+    display: inline-block;
+    /* box-shadow: inset 0 1px 1px rgb(45, 59, 69) ; */
+    border: 1px solid #ccc;
+    /* writing-mode: horizontal-tb; */
+    padding: 8px 8px 8px 8px;
+    /* transition-property: box-shadow border; */
+}
+#email-input:focus{
+    outline: none;
+    box-shadow:  0 0 5px rgb(0, 142, 226) ;
+    border: 1px solid  rgb(0, 142, 226);
+} 
+
+/* #email-input:valid{
+    box-shadow:  0 0 5px rgb(0, 142, 226) ;
+    border: 1px solid  rgb(0, 142, 226);
+    
+} */
+
+/* #email-input:invalid {
+    border: 1px solid #fc0000;
+    box-shadow: 0 0 5px #fc0000;
+    color: red;
+}  */
+
+.subscribe-button {
+    border: 1px solid  rgb(53, 175, 53); 
+    border-radius: 5px;
+    font-family:"Lato Extended","Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 560;
+    font-size: 16px;
+    background-color: rgb(53, 175, 53);
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+    /* border-collapse: collapse; */
+    /* box-sizing: border-box; */
+    /* display: inline-block; */
+}
+.subscribe-button:focus {
+    outline: none;
+    box-shadow:  0 0 5px #27a745 ;
+    border: 1px solid  #27a745;
+}
+.card {
+    font-family:"Lato Extended","Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+
+    border-radius: 7px;
+    border: 1px solid #ccc;
+    padding: 14px;
+    vertical-align: middle;
+    margin: auto;
+    width: fit-content;
+}
+
+.inner-card {
+    background-color: #d4edda;
+    padding: 14px;
+    border-radius: 7px;
+    font-family:"Lato Extended","Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+    border: 1px solid#d4edda;
+    color: #155725;
+    width: 540px;
+
+}
+
+#Thank-you {
+    line-height: 2em;
+    font-size: 22px;
+    font-weight: bold;
+}
